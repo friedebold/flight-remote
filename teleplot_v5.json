@@ -1,0 +1,166 @@
+{
+   "widgets": [
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 6,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "thrust",
+               "sourceNames": [
+                  "thrust"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "thrust",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "isActive",
+               "sourceNames": [
+                  "isActive"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "isActive",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "forceShutdown",
+               "sourceNames": [
+                  "forceShutdown"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "forceShutdown",
+                  "stroke": "rgba(46,204,113,1)",
+                  "fill": "rgba(46,204,113,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 6,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "pitch",
+               "sourceNames": [
+                  "pitch"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "pitch",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "roll",
+               "sourceNames": [
+                  "roll"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "roll",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 6,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "c_bat",
+               "sourceNames": [
+                  "c_bat"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "c_bat",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      },
+      {
+         "type": "chart",
+         "gridPos": {
+            "h": 6,
+            "w": 6,
+            "x": 0,
+            "y": 0
+         },
+         "series": [
+            {
+               "name": "v_bat_1",
+               "sourceNames": [
+                  "v_bat_1"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "v_bat_1",
+                  "stroke": "rgba(231,76,60,1)",
+                  "fill": "rgba(231,76,60,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "v_bat_2",
+               "sourceNames": [
+                  "v_bat_2"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "v_bat_2",
+                  "stroke": "rgba(52,152,219,1)",
+                  "fill": "rgba(52,152,219,0.1)"
+               },
+               "type": "number"
+            },
+            {
+               "name": "v_bat_3",
+               "sourceNames": [
+                  "v_bat_3"
+               ],
+               "formula": "",
+               "options": {
+                  "_serie": "v_bat_3",
+                  "stroke": "rgba(46,204,113,1)",
+                  "fill": "rgba(46,204,113,0.1)"
+               },
+               "type": "number"
+            }
+         ]
+      }
+   ],
+   "viewDuration": "60"
+}
